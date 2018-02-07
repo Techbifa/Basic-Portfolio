@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    background: #f1f1f1;
+}
+/* Header/My name*/
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: left;
+    background: white;
+}
+/* style the navbar */
+.topnav {
+    overflow: hidden;
+    background-color: aliceblue;
+
+    /* style the topnav links */
+    .topnav a {
+        float: right;
+        display: block;
+        color: #f2f2f2
+        text-align: center;
+        padding: 14px 16px
+        text-decoration: none;
+    
+    }
+    /* change color on hover */
+    .topnav a:hover {
+        background-color: #dddddd
+        color: black;
+    }
+    /* create two unequal boxes floating next to each other */
+    /* left box */
+    .leftbox {
+        float: left;
+        width: 650px;
+    }
+    /* right box */
+    .rightbox {
+        float: right;
+        width: 270px;
+        background-color: #dddddd
+        padding-left: 20px;
+    }
